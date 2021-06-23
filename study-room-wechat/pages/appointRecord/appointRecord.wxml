@@ -1,0 +1,31 @@
+<!--预约订单-->
+<view>
+  <!-- 内容页 -->
+  <view class="main">
+    <!--全部-->
+    <view class="style-default">
+      <view class="table">
+        <view class="tr bg-w">
+          <view class="th">预约时间</view>
+          <view class="th">自习室编号</view>
+          <view class="th ">座位编号</view>
+          <view class="th ">预约时长</view>
+        </view>
+        <block wx:for="{{listDate}}" wx:key="appointid">
+          <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+            <view class="td">{{item.start_time}}</view>
+            <view class="td">{{item.ss_roomid}}</view>
+            <view class="td">{{item.seatid}}</view>
+            <view class="td">{{item.study_len}}分</view>
+          </view>
+          <view class="tr" wx:else>
+            <view class="td">{{item.start_time}}</view>
+            <view class="td">{{item.ss_roomid}}</view>
+            <view class="td">{{item.seatid}}</view>
+            <view class="td">{{item.study_len}}分</view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

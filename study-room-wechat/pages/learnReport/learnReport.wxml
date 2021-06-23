@@ -1,0 +1,22 @@
+<!--学习报告-->
+<view>
+  <view class="opt">
+    <view class="month opt-item">学习报告</view>
+  </view>
+  <view class="month-page">
+    <view class="total-box">
+      <view class="total-box-item time">
+        <view><text>小小自习室陪伴你学习：</text></view>
+        <view class="circle">
+          <text class="text">{{studyTime}}分钟</text>
+        </view>
+      </view>
+    </view>
+    <view class="study-report">
+      <view class="title">近一周学习时长报告</view>
+      <view class="containers">
+        <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+      </view>
+    </view>
+  </view>
+</view>

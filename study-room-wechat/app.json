@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/appoint/appoint",
+    "pages/appointRecord/appointRecord",
+    "pages/recharge/recharge",
+    "pages/seat/seat",
+    "pages/learnReport/learnReport",
+    "pages/logs/logs",
+    "pages/chargetime/chargetime",
+    "pages/chooseTime/chooseTime",
+    "pages/index/index"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#C2185B",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.12",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于有助于引导您至自习室"
+    }
+  },
+
+  "usingComponents": {},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/photo/homepage.jpg",
+        "selectedIconPath": "static/photo/home_after.jpg"
+      },
+      {
+        "pagePath": "pages/appoint/appoint",
+        "text": "我的",
+        "iconPath": "static/photo/my.jpg",
+        "selectedIconPath": "static/photo/my_after.jpg"
+      }
+    ]
+  }
+}

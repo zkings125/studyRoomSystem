@@ -1,0 +1,75 @@
+/**home.wxss**/
+.title_feature {
+  position: fixed;
+  width: 100%;
+  height: 80rpx;
+  padding: 20rpx;
+  top: 0;
+  border-radius: 2.5%;
+  font-size: 45rpx;
+  color: white;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.main{
+  margin-top: 120rpx;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.oneitem {
+  border-width: 5rpx;
+  border-color: orange;
+  width: 85%;
+  height: 450rpx;
+  display: flex;
+  flex-direction: column;
+  margin:20rpx;
+  border-radius: 30rpx;
+  box-shadow: 6rpx 6rpx 3rpx #888888;
+  overflow: hidden;
+}
+
+.oneimage {
+  width: 100%;
+  height:300rpx;
+}
+
+.barButtom{
+  display: flex;
+  flex-direction: row;
+}
+
+.ssDetail{
+  width: 500rpx;
+}
+.ssName{
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+  height: 30%;
+  font-size: larger;
+  font-style: inherit;
+}
+.address{
+  padding: 15rpx;
+  height: 50%;
+  font-size:30rpx;
+  color: #666;
+}
+.navigation{
+  padding:5rpx;
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+}
+#navi_img{
+  padding: 5rpx;
+  width: 100rpx;
+  display: block;
+  margin: auto;
+}

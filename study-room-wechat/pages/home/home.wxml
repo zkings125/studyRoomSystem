@@ -1,0 +1,23 @@
+<!--首页-->
+<!--home.wxml-->
+<view>
+  <view class="title_feature">门店选择</view>
+  <view class="main">
+    <view class="row">
+      <view class="oneitem" wx:for="{{ssRoomList}}" wx:key="room_id" wx:for-index="i">
+        <image class="oneimage" bindtap="appoint" src="{{item.coverMap}}" data-roomName="{{item.ssRoomName}}" data-roomId="{{item.ssRoomID}}">
+        </image>
+        <view class="barButtom">
+          <view class="ssDetail" bindtap="appoint" src="{{item.coverMap}}" data-roomName="{{item.ssRoomName}}" data-roomId="{{item.ssRoomID}}">
+            <view class="ssName">{{item.ssRoomName}}</view>
+            <view class="address">{{item.address}}</view>
+          </view>
+          <view class="navigation" bindtap="navigate" data-address="{{item.address}}"
+            data-roomName="{{item.ssRoomName}}">
+            <image src="{{navigation_icon}}" id='navi_img' mode='widthFix'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,99 @@
+.bgView {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  height: 200rpx;
+  width: 100%;
+  /* margin-bottom: 20rpx; */
+}
+.titleBox{
+  text-align: center;
+}
+.titleView{
+  padding: 15rpx;
+}
+.title {
+  color: white;
+  font-size: 50rpx;
+} 
+.num{
+  color: white;
+  font-size: 50rpx;
+  font-weight: 600;
+}
+.czhi{
+  background-color: rgb(241,245,248);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.czhiView{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 30rpx;
+  font-size: 40rpx;
+  color: rgb(106, 111, 114);
+}
+.btnView {
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  padding: 10rpx;
+}
+.btnView view {
+  width: 200rpx;
+  height: 100rpx;
+  margin: 8rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.active {
+  background-color: rgb(252,162,114);
+  border: 2px solid rgb(252,162,114);
+  opacity: 0.6;
+  box-shadow: 6rpx 6rpx 3rpx #888888;
+  color: white;
+}
+.noactive {
+  background-color: white;
+  /* background-color: rgb(241,245,248); */
+  border: 2px solid white;
+  color: black;
+}
+.otherText {
+  /* color: black; */
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.zidyText {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.inputView {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* font-size: 38rpx; */
+  color: white;
+}
+.czhiBox{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+.btnczhi{
+  width: 35%;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  height: 80rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 20rpx;
+}
+.btnczhi text{
+  color: white;
+  font-size: 36rpx;
+}

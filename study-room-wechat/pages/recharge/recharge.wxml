@@ -1,0 +1,19 @@
+<!--充值记录-->
+<view class="main">
+  <view class="table">
+    <view class="tr bg-w">
+      <view class="th">充值时间</view>
+      <view class="th ">充值时长</view>
+    </view>
+    <block wx:for="{{listData}}" wx:key="customerID">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.time}}</view>
+        <view class="td">{{item.length}}小时</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.time}}</view>
+        <view class="td">{{item.length}}小时</view>
+      </view>
+    </block>
+  </view>
+</view>

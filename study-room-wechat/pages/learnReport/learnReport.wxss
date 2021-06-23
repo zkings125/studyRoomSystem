@@ -1,0 +1,75 @@
+/**index.wxss**/
+page{
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.opt-item{
+  background-color: rgb(254,126,91);
+  margin: 20px 2px;
+  width: 45%;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  margin: 15px auto;
+}
+.total-box{
+  margin: 10px;
+  /* width: 100%; */
+  height: 170px;
+  box-shadow: 0 0 3px 3px rgb(241, 239, 239);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+}
+.total-box-item{
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+}
+.circle{
+  margin-top: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(254,205,191);
+  border-radius: 50%;
+}
+.circle .text{
+  color: rgb(254,126,91);
+  line-height: 120px;
+  font-size: 25px;
+}
+.study-report{
+  /* margin: 5px; */
+  box-shadow: 0 0 3px 3px rgb(241, 239, 239);
+  padding: 20px;
+}
+.study-report .title::before{
+  bottom: 0;
+  /* line-height: 12px; */
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  background-color: rgb(254,126,91);
+  width: 4px;
+  height: 20px;
+  margin: 0 4px;
+  border-radius: 2px;
+}
+.containers{
+  width: 100%;
+  height: 500rpx;
+  /* background-color: aqua; */
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

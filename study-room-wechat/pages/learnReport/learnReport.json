@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自习室学习报告",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

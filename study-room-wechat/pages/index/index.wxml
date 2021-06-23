@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view>
+  <swiper>
+    <swiper-item>
+        <view class="red"></view>
+    </swiper-item>
+    <swiper-item>
+        <view class="blue"></view>
+    </swiper-item>
+  </swiper>
+
+  <view class="tab">
+    <view class="img_text">
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpmerchantpic%2F707577e3c95974f9ee4fcd7d2d851c9d122460.jpg&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626229974&t=5263df89e3d300eb263a9d70d2f6b6e5"></image>
+      <view class="text"><text>宁浸自习室</text></view>
+    </view>
+    <view class="img_text">
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpmerchantpic%2F707577e3c95974f9ee4fcd7d2d851c9d122460.jpg&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626229974&t=5263df89e3d300eb263a9d70d2f6b6e5"></image>
+      <view class="text"><text>宁浸自习室</text></view>
+    </view>
+    <view class="img_text">
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpmerchantpic%2F707577e3c95974f9ee4fcd7d2d851c9d122460.jpg&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626229974&t=5263df89e3d300eb263a9d70d2f6b6e5"></image>
+      <view class="text"><text>宁浸自习室</text></view>
+    </view>
+    <view class="img_text">
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpmerchantpic%2F707577e3c95974f9ee4fcd7d2d851c9d122460.jpg&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626229974&t=5263df89e3d300eb263a9d70d2f6b6e5"></image>
+      <view class="text"><text>宁浸自习室</text></view>
+    </view>
+    <view class="img_text">
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpmerchantpic%2F707577e3c95974f9ee4fcd7d2d851c9d122460.jpg&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1626229974&t=5263df89e3d300eb263a9d70d2f6b6e5"></image>
+      <view class="text"><text>宁浸自习室</text></view>
+    </view>
+  </view>
+
+</view>

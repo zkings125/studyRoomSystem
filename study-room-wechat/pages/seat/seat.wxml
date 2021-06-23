@@ -1,0 +1,20 @@
+<!--选座位-->
+<view>
+  <view class="room">
+    <image class="roomImg" src="../../static/photo/room.jpg"></image>
+  </view>
+  <view class="seats">
+    <view class="seat" wx:for="{{seat}}" wx:for-index="idx" wx:key="id">
+      <image src="{{status[item.useful]}}" class="seat_img" bindtap="choose"  data-item="{{idx}}" ></image>
+      <view class="seat_num"><text >{{item.seatID}}</text></view>
+    </view></view>
+    
+    <view >
+    <view class="beginTime"><text >订单开始时间{{startTime}}</text></view>
+      
+      <view class="nowChoose">
+        <text wx:if="{{now != -1}}">当前选择座位{{now}}</text>
+      </view>
+      <button class="nextBtn" bindtap="nextStep" type="primary">确定</button>
+    </view>
+</view>

@@ -1,0 +1,47 @@
+/* pages/seat/seat.wxss */
+.seats{
+  width: 700rpx;
+  height: 400rpx;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px black solid;
+  overflow: auto;
+  border-radius: 50rpx;
+  box-shadow: 6rpx 6rpx 3rpx #888888;
+}
+
+.seat{
+  margin: 20rpx;
+  width: 50rpx;
+  height: 60rpx;
+  
+}
+.seat_img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.seat_num{
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: -20rpx;
+}
+.roomImg{
+  width: 750rpx;
+  height: 400rpx;
+}
+.nowChoose{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.beginTime{
+  margin: 20rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+/* .nextBtn{
+
+} */

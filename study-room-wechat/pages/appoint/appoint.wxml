@@ -1,0 +1,48 @@
+<!--个人页-->
+<view>
+  <view class="top" style="background:{{color[type]}}">
+    <view class="user">
+      <image class="headPhoto" src="{{avatarUrl}}"> </image>
+      <view class="name" wx:if="{{flag}}"><text>{{nickName}}</text></view>
+      <view class="status" wx:if="{{flag}}"><text>{{type}}</text></view>
+      <view class="money" wx:if="{{isLogin}}" bindtap="gotoChange">剩余时长：{{menLength}}小时</view>
+    </view>
+    <view class="login" wx:if="{{!isLogin}}" bindtap="Login">点击登录</view>
+    <view class="chickenShop">
+      <swiper indicator-dots autoplay="true"  interval="5000" circular>
+        <swiper-item >
+          <image class="img" mode src='https://study-room.obs.cn-north-4.myhuaweicloud.com/soup_1.png'></image>
+        </swiper-item>
+        <swiper-item >
+          <image class="img" mode src="https://study-room.obs.cn-north-4.myhuaweicloud.com/soup_2.png"></image>
+        </swiper-item>
+        <swiper-item >
+          <image class="img" mode src="https://study-room.obs.cn-north-4.myhuaweicloud.com/soup_3.png"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <view  wx:if="{{isLogin}}">
+    <view class="btn" bindtap="goChargeTime">
+      <image src="../../static/photo/充值.png" class="icon left" ></image>
+      <text class="btnText">充值</text>
+      <image src="../../static/photo/arrow-right.png" class="icon right"></image>
+    </view>
+    <view class="btn" bindtap="goLearnReport">
+      <image src="../../static/photo/book.png" class="icon left" ></image>
+      <text class="btnText">学习报告</text>
+      <image src="../../static/photo/arrow-right.png" class="icon right"></image>
+    </view>
+    <view class="btn" bindtap="goAppoinRecord">
+      <image src="../../static/photo/订单.png" class="icon left"></image>
+      <text class="btnText">我的订单</text>
+      <image src="../../static/photo/arrow-right.png" class="icon right"></image>
+    </view>
+    
+  </view>
+  <view class="content">
+    <view class="mode">
+    
+    </view>
+  </view>
+</view>
