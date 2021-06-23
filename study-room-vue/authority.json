@@ -1,0 +1,17 @@
+{
+    "code": 0
+    ,"msg": ""
+    ,"count": 3000000
+    ,"data": [{
+      "adminID": "10001"
+      ,"adminPwd": "杜甫"
+      ,"ssRoomID": "test@email.com"
+      ,"sex": "男"
+      ,"city": "浙江杭州"
+      ,"sign": "点击此处，显示更多。当内容超出时，点击单元格会自动显示更多内容。"
+      ,"experience": "116"
+      ,"ip": "192.168.0.8"
+      ,"logins": "108"
+      ,"joinTime": "2016-10-14"
+    }]
+  }  
