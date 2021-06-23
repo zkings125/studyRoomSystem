@@ -1,36 +1,23 @@
-# 小小自习室
+# small study room. 
 
-#### Description
-小小自习室（微信小程序+spingboot+vue）
+#### introduction. 
 
-#### Software Architecture
-Software architecture description
+Small self-study room (WeChat Mini Programs + spingboot+vue). 
 
-#### Installation
+#### Software architecture description. 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+None for the time being. 
 
-#### Instructions
+#### instructions. 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Study-room-wechat is the end of Wechat Mini programs. 
+2. Study-room-springboot is the system daemon, which is started with mvnw spring-boot:run. 
+3. Study-room-vue is the background page of the system, which is launched using npm run serve. 
 
-#### Contribution
+#### developer / participant contribution. 
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. ljq. 
+2. txd. 
+3. tjy. 
+4. wxf. 
+5. jy
